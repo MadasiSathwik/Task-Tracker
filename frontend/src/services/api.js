@@ -1,11 +1,12 @@
-import axios from 'axios';
+import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: import.meta.env.VITE_API_URL || "https://task-tracker-backend-ht6s.onrender.com",
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
 });
+
 
 // Request Interceptor to inject JWT token if it exists in local storage
 api.interceptors.request.use(
