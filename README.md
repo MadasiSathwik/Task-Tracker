@@ -12,9 +12,9 @@
 
 ## 🌐 Live Demo
 
-🔗 **Frontend:** https://your-frontend-url.vercel.app
+🔗 **Frontend:** https://tasktrackerclg.netlify.app/login
 
-🔗 **Backend API:** https://your-backend-url.onrender.com
+🔗 **Backend API:** https://task-tracker-backend-ht6s.onrender.com/
 
 ---
 
@@ -22,11 +22,15 @@
 
 | Dashboard | Kanban Board |
 |-----------|--------------|
-| *(Add Screenshot)* | *(Add Screenshot)* |
+| <img width="1911" height="862" alt="image" src="https://github.com/user-attachments/assets/a3c155d6-4b7c-473f-958f-b9ca195870eb" />
+ | <img width="1917" height="857" alt="image" src="https://github.com/user-attachments/assets/dfa01a1c-d754-48de-b355-2ec714b85b6b" />
+ |
 
 | Analytics | Calendar View |
 |------------|---------------|
-| *(Add Screenshot)* | *(Add Screenshot)* |
+| <img width="771" height="877" alt="image" src="https://github.com/user-attachments/assets/af917998-37ec-4625-9ca5-b51dd79e1a2a" />
+ | <img width="837" height="853" alt="image" src="https://github.com/user-attachments/assets/833f3dd0-84d6-45cf-b2fb-ad6b5b94adae" />
+ |
 
 ---
 
@@ -196,7 +200,7 @@ Task-Tracker/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/task-tracker.git
+git clone https://github.com/MadasiSathwik/Task-Tracker.git
 ```
 
 ```
@@ -216,8 +220,8 @@ Create `.env`
 
 ```env
 PORT=5000
-MONGO_URI=your_mongodb_connection
-NODE_ENV=development
+MONGO_URI= **************************************************
+NODE_ENV=production
 CORS_ORIGIN=http://localhost:5173
 ```
 
